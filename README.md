@@ -1,3 +1,5 @@
+[Readme español](README.es.md)
+
 # Japanese Quiz App
 
 An interactive web application for learning Japanese through quizzes. This application is built with React and utilizes Tailwind CSS for modern and responsive styles.
