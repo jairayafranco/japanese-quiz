@@ -18,7 +18,7 @@ Una aplicación web interactiva para aprender japonés mediante quizzes. Esta ap
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/japanese-quiz-app.git
+git clone https://github.com/tu-usuario/japanese-quiz.git
 ```
 
 2. Navega al directorio del proyecto: `cd japanese-quiz`
