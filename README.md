@@ -9,7 +9,9 @@ An interactive web application for learning Japanese through quizzes. This appli
 - Real-time scoring with maximum score tracking.
 - Responsive design for an optimal experience on both mobile and desktop devices.
 
-## Screenshots![Captura de Pantalla 1](src/static/images/cap1.png)
+## Screenshots
+![Captura de Pantalla 1](src/static/images/cap1.png)
+![Captura de Pantalla 1](src/static/images/cap2.png)
 
 ## # Installation
 
