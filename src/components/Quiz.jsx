@@ -20,7 +20,11 @@ export default function Quiz({ data, title, storageKeyPrefix, characterKey }) {
     const checkAnswer = (e) => {
         e.preventDefault()
 
-        if (input.toLowerCase() === items[current].romaji) {
+        const isCorrect = Array.isArray(items[current].romaji)
+            ? items[current].romaji.includes(input.toLowerCase())
+            : input.toLowerCase() === items[current].romaji
+
+        if (isCorrect) {
             const newStreak = streak + 1
             setStreak(newStreak)
             setTopStreak(Math.max(newStreak, topStreak))
@@ -36,7 +40,10 @@ export default function Quiz({ data, title, storageKeyPrefix, characterKey }) {
             )
         } else {
             setStreak(0)
-            setError(`Wrong! The correct answer for ${items[current][characterKey]} is ${items[current].romaji}`)
+            const correctAnswer = Array.isArray(items[current].romaji)
+                ? items[current].romaji.join(', ')
+                : items[current].romaji
+            setError(`Wrong! The correct answer for ${items[current][characterKey]} is ${correctAnswer}`)
 
             localStorage.setItem(
                 `${storageKeyPrefix}Streak`,
