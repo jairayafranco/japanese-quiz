@@ -9,9 +9,7 @@ Una aplicación web interactiva para aprender japonés mediante quizzes. Esta ap
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](src/static/images/cap1.png)
-
-![Captura de Pantalla 2](src/static/images/cap2.png)
+![Captura de Pantalla 1](src/static/images/cap.png)
 
 ## Instalación
 
