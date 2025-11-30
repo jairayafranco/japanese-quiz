@@ -10,8 +10,7 @@ An interactive web application for learning Japanese through quizzes. This appli
 - Responsive design for an optimal experience on both mobile and desktop devices.
 
 ## Screenshots
-![Captura de Pantalla 1](src/static/images/cap1.png)
-![Captura de Pantalla 1](src/static/images/cap2.png)
+![Captura de Pantalla 1](src/static/images/cap.png)
 
 ## # Installation
 
